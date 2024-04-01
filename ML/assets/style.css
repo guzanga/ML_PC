@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Quicksand", sans-serif;
+}
+
+body{
+    background: linear-gradient(180deg, rgba(114,63,196,1) 0%, rgba(0,0,0,1));
+    width: 100%;
+}
+
+#logo1{
+    width: 60px;
+    height: 60px;
+}
+
+#logo1:hover{
+    animation-delay: 0.5s;
+    animation: logoGirando 1s;
+    cursor: pointer;
+}
+
+@keyframes logoGirando {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate( 360deg);
+    }
+}
+
+#link-home,
+#link-gastos,
+#link-apoio{
+    color: rgb(162, 162, 162);
+    transition: 0.8;
+    font-size: 20px;
+}
+
+#link-home:hover,
+#link-gastos:hover,
+#link-apoio:hover{
+    color: rgb(189, 189, 189);
+    scale: 1.05;
+    transition: 0.8;
+}
+
+#quadrado{
+    background-color: #42286c;
+    border-radius: 15px;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+h5{
+    color: white;
+}
+
+h6{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+#sald{
+    width: 100%;
+    border-radius: 15px;
+    background-color: #42286c;
+    padding: 20px;
+}
+
+#pd{
+    margin-bottom: 15px;
+}
+
+#vermei{
+    color: #FF7272;
+}
+
+#verde{
+    color: #67F8BB;
+}
+
+.vetor{
+    height: 40px;
+    width: 40px;
+}
+
+.olho{
+    width: 34px;
+    height: 25px;
+}
+
+#ultgast{
+    padding-top: 20px;
+}
